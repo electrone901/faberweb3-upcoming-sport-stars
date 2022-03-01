@@ -39,21 +39,21 @@ https://github.com/electrone901/faberweb3-upcoming-sport-stars
 
 ### Upcoming Sports Stars application makes use of the following software:
 
-Polygon, Matic Network: the network I deployed the app.
+- Polygon, Matic Network: the network I deployed the app.
 
-Covalent API for a quick way to fetch and retrieve NFTs from a wallet address.
+- Covalent API for a quick way to fetch and retrieve NFTs from a wallet address.
 ​​
-NFTPort for multi-chain NFT minting, and data transparency such as distributing rewards and minting the NFT.
+- NFTPort for multi-chain NFT minting, and data transparency such as distributing rewards and minting the NFT.
 
-NFTStorage: the data is stored on NFTStorage IPFS, the generated hash (CID) will be used to view the details and to retrieve the NFT.
+- NFTStorage: the data is stored on NFTStorage IPFS, the generated hash (CID) will be used to view the details and to retrieve the NFT.
 
-Solidity: Solidity was used for the smart contract together with OpenZeppelin ERC721 for faster development of the smart contract
+- Solidity: Solidity was used for the smart contract together with OpenZeppelin ERC721 for faster development of the smart contract
 
-Ganache: for local blockchain development
+- Hardhat: for local blockchain development
 
-Frontend: React Js for the frontend, Material-UI, and Web3 to connect to the blockchain.
+- Frontend: React Js for the frontend, Material-UI, and Web3 to connect to the blockchain.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+- This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
 ## Future Features:
 
