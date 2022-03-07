@@ -121,6 +121,7 @@ function PlayerGallery() {
                         color="primary"
                         className="card-header-swap"
                       >
+                      
                         {player.sportType}
                       </Typography>
                     </CardContent>

@@ -9,7 +9,7 @@ import {
   Typography,
 } from '@material-ui/core'
 import './Footer.css'
-import logo from '../../../images/logo2.png'
+import logo from '../../../images/icon.png'
 
 function Footer() {
   return (

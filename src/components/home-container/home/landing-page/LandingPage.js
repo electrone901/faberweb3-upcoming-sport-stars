@@ -1,6 +1,7 @@
 import Button from '@material-ui/core/Button'
 import { Link } from 'react-router-dom'
 import './LandingPage.css'
+import RonaldoImg from '../../../../images/cris.png'
 
 const LandingPage = () => {
   return (
@@ -69,9 +70,10 @@ const LandingPage = () => {
 
       <div className="gradient-blue-bg">
         <div className="content-section-container text-centered tp-80 trainer-text">
-          <h2 className="header-bold">Alexander Delpierre</h2>
+          <h2 className="header-bold">Cristiano Ronaldo</h2>
           <h6>
-            18 y.o. - Currently playing for New Soccer High School NY, NY.
+            28 y.o. - Currently playing for Premier League club Manchester
+            United
           </h6>
           <p className="player-description">
             My goal is to play as a professional player. I have always dreamt of
@@ -91,7 +93,7 @@ const LandingPage = () => {
           </Button>
         </div>
 
-        <img src="https://assets.codepen.io/6060109/trainer.png" alt="person" />
+        <img src={RonaldoImg} alt="person" />
       </div>
 
       <div className="bp-100"></div>

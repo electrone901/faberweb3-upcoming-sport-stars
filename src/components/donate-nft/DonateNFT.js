@@ -74,7 +74,7 @@ function DonateNFT() {
     <StylesProvider injectFirst>
       <Container
         className="root-create-pet"
-        style={{ minHeight: '70vh', paddingBottom: '3rem' }}
+        style={{ minHeight: '80vh', paddingBottom: '3rem' }}
       >
         <div>
           {codeHash ? (

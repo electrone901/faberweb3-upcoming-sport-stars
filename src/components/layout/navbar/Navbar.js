@@ -17,7 +17,7 @@ import NotificationsIcon from '@material-ui/icons/Notifications'
 import MoreIcon from '@material-ui/icons/MoreVert'
 import { StylesProvider } from '@material-ui/core/styles'
 import './Navbar.css'
-import logo from '../../../images/logo2.png'
+import logo from '../../../images/icon.png'
 import UAuth from '@uauth/js'
 
 export const Navbar = withRouter(({ account, connectWallet, setAccount }) => {
@@ -145,6 +145,10 @@ export const Navbar = withRouter(({ account, connectWallet, setAccount }) => {
 
             <Button className="whiteLink" component={Link} to="/marketplace">
               Goals'Marketplace
+            </Button>
+
+            <Button className="whiteLink" component={Link} to="/donate">
+              Donate
             </Button>
 
             <div className="grow" />

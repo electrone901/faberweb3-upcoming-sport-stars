@@ -11,7 +11,7 @@ import DonateNFT from './components/donate-nft/DonateNFT'
 import LandingPage from './components/home-container/home/landing-page/LandingPage'
 
 import playerAbi from './artifacts/contracts/Player.sol/Player.json'
-const playerContractAddress = '0x16d7be29ebc6db2e9c92E0Bf1dE5c1cfe6b1AD2a'
+const playerContractAddress = '0x1a2FCb5F2704f1fF8eFF26668f63D001b42bF80B'
 
 function App() {
   const [account, setAccount] = useState('')
